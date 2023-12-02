@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+
+h1{
+    text-align:center
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    font-family: "Trirong", serif;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background-color: forestgreen;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+
+
+  #allContent {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+  }
+  
+  #embeddedMap{
+    text-align: center;
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .info {
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  #container {
+    position: relative;
+    bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 300px;
+    margin: 20% auto -5% auto;
+  }
+  
+  .navbar-nav, .navbar {
+    background-color: rgb(65, 39, 160);
+  }
+
+
+  .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .card {
+    margin: auto;
+    width: 290px;
+    height: 350px;
+    background-color: rgb(111, 223, 231)
+    position: relative;
+    border: 3px white solid;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    font-size: 16px;
+  }
+  
+  .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-content {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card-title {
+    background-color: goldenrod;
+    margin-top: 0px;
+    font-size: 25px;
+    color: rgb(252, 251, 251);
+    position: relative;
+    bottom: 3px;
+    height: 35px;
+  }
+
+
+  #goodLook, #badLook{
+    height: 140px;
+    margin-bottom: 5px;
+    background-color: rgb(180, 180, 130);
+    
+  }
+
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+  #consoleBox{
+    position:relative;
+    height:300px;
+    width:40%;
+    background-color:#000;
+    color: #55ff55;
+    font-family: monospace;
+    padding:6px; 
+    margin: 2% auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    border: 2px solid #161616;
+    font-size: 14px;
+  }
